@@ -1,3 +1,5 @@
+import StarRatings from 'react-star-ratings';
+
 function Shop() {
     return (
         <>
@@ -93,11 +95,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={4.8}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -130,11 +135,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={3.2}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -167,11 +175,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={3.2}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -204,11 +215,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={3.2}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -241,11 +255,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={3.2}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -278,11 +295,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={3.2}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -315,11 +335,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={4.8}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -352,11 +375,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={4.8}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -389,11 +415,14 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={4.8}
+                                                    starRatedColor="red"
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -509,11 +538,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -546,11 +579,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -583,11 +620,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -620,11 +661,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -657,11 +702,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -694,11 +743,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -731,11 +784,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -768,11 +825,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
@@ -805,11 +866,15 @@ function Shop() {
                                         </ul>
                                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                                             <li>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-warning fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
-                                                <i className="text-muted fa fa-star"></i>
+                                                <StarRatings
+                                                    className="start-rating"
+                                                    rating={2.4}
+                                                    starRatedColor="red"
+                                                    // changeRating={changeRating}
+                                                    numberOfStars={5}
+                                                    name="rate"
+                                                >
+                                                </StarRatings>
                                             </li>
                                         </ul>
                                         <p className="text-center mb-0">$250.00</p>
