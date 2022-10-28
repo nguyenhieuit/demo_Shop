@@ -6,19 +6,19 @@ function Footer() {
                     <div className="row">
 
                         <div className="col-md-4 pt-5">
-                            <h2 className="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
+                            <h2 className="h2 text-success border-bottom pb-3 border-light logo">Alo-phone</h2>
                             <ul className="list-unstyled text-light footer-link-list">
                                 <li>
                                     <i className="fas fa-map-marker-alt fa-fw"></i>
-                                    123 Consectetur at ligula 10660
+                                    03 Quang Trung street, DaNang city.
                                 </li>
                                 <li>
                                     <i className="fa fa-phone fa-fw"></i>
-                                    <a className="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                                    <a className="text-decoration-none" href="tel:010-020-0340">0123 4567 899</a>
                                 </li>
                                 <li>
                                     <i className="fa fa-envelope fa-fw"></i>
-                                    <a className="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                                    <a className="text-decoration-none" href="mailto:info@company.com">info@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -42,7 +42,7 @@ function Footer() {
                                 <li><a className="text-decoration-none" href="google.com">Home</a></li>
                                 <li><a className="text-decoration-none" href="google.com">About Us</a></li>
                                 <li><a className="text-decoration-none" href="google.com">Shop Locations</a></li>
-                                <li><a className="text-decoration-none" href="google.com">FAQs</a></li>
+                                {/* <li><a className="text-decoration-none" href="google.com">FAQs</a></li> */}
                                 <li><a className="text-decoration-none" href="google.com">Contact</a></li>
                             </ul>
                         </div>
@@ -85,7 +85,6 @@ function Footer() {
                             <div className="col-12">
                                 <p className="text-left text-light">
                                     Copyright © 2021 Company Name
-                                    | Designed by <a rel="sponsored" href="https://templatemo.com">TemplateMo</a>
                                 </p>
                             </div>
                         </div>
