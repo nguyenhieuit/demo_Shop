@@ -25,7 +25,7 @@ function Header() {
                 <div className="container d-flex justify-content-between align-items-center">
 
                     <a className="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                        Alo-phone
+                        <img src="https://f7-zpcloud.zdn.vn/8694324151068249830/09111a48751eb340ea0f.jpg"></img>
                     </a>
 
                     <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +50,12 @@ function Header() {
                                 <li className="nav-item">
                                     <Link to="/Contact" className="nav-link">Contact</Link>
                                     {/* <a className="nav-link" href="contact.html">Contact</a> */}
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/Register" className="nav-link">Register</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/Register" className="nav-link">Login</Link>
                                 </li>
                             </ul>
                         </div>

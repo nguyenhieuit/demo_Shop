@@ -7,6 +7,7 @@ import Shop from './component/Shop';
 import About from './component/About';
 import Home from './component/Home';
 import Contact from './component/Contact';
+import Register from './component/member/Register';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
         <Route path='/shop' element={<Shop />} />
         <Route path='/about' element={<About />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='register' element={<Register />} />
       </Routes>
     </App>
   </Router>
